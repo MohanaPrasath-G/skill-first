@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}*/
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="time"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(192, 192, 192);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+    background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #21570a;
+  color: #fff;
+}
+
+button[type="button"] {
+  background-color: #25174c;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+} 
+
+
+.events-container{
+  background-color: rgb(226, 105, 254);
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 5px 1px rgb(29, 29, 29);
+  margin: 10px;
+  padding: 10px;
+}
+
+.event-card{
+  border: 1px solid black;
+}
